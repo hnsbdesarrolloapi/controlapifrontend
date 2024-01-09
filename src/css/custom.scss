@@ -1,0 +1,29 @@
+.q-timeline {
+  .q-timeline__dot:before {
+    height: 10px;
+    width: 10px;
+    top: 6px;
+  }
+
+  .q-timeline__dot:after {
+    width: 2px;
+    left: 4px;
+  }
+
+  .q-timeline__subtitle {
+    font-weight: 500;
+    color: $dark;
+    margin-bottom: 2px;
+  }
+  .q-timeline__content {
+    padding-bottom: 12px;
+    margin-bottom: 0;
+    font-size: 13px;
+    .q-timeline__title {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 2px;
+      //color: #000;
+    }
+  }
+}

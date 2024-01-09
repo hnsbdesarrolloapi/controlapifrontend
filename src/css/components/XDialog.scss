@@ -1,0 +1,8 @@
+.x-dialog {
+  margin-top: 5vh;
+  max-width: 90vw!important;
+  &.x-card {
+    border-top-left-radius: 4px!important;
+    border-top-right-radius: 4px!important;
+  }
+}

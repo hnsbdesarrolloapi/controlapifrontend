@@ -1,0 +1,28 @@
+.x-table-card {
+  border-radius: 0;
+  .x-table-section-title {
+    border-bottom: 1px solid #e7eaec;;
+    .title {
+      color: #212B36;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .q-btn {
+      color: #212B36;
+    }
+  }
+
+  .x-table-section-filters {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .x-table-section-content {
+    padding-top: 0;
+    .q-table th {
+      color: #212529;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #67748E;
+}
+
+.content-index {
+  margin: 16px;
+  .q-card--bordered {
+    border: 1px solid #e7eaec;
+  }
+}
+
+.q-select__dropdown-icon {
+  font-size: 1rem;
+}
+
+.q-menu .q-checkbox__inner {
+  font-size: 30px;
+}
+
+.q-header--bordered {
+  border-color: #E8EBED;
+}
+
+.q-badge {
+  padding: 4px 6px;
+  width:75px;
+  justify-content: center;
+}
+
+@import "components/XCard";
+@import "components/XDatapicker";
+@import "components/XInput";
+@import "components/XSelect";
+@import "components/XTableServer";
+@import "components/XDrawer";
+@import "components/XDialog";
+@import "custom";
+
+
