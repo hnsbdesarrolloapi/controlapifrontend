@@ -22,6 +22,7 @@ const routes = [
       {path: 'reniec_configurations', component: () => import('pages/ReniecConfiguration/Index.vue'), meta: {requiresAuth: true}},
       {path: 'sis_configurations', component: () => import('pages/SisConfiguration/Index.vue'), meta: {requiresAuth: true}},
       {path: 'ws_configurations', component: () => import('pages/WsConfiguration/Index.vue'), meta: {requiresAuth: true}},
+      {path: 'configurations', component: () => import('pages/Configuration/Form.vue'), meta: {requiresAuth: true}},
     ]
   },
 
